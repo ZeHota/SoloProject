@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="4"
+            failures="0"
+            tests="10">
+
+  <testsuite name="imdb"
+    errors="4" failures="0" hostname="" id="" package="imdb" skipped="0"
+    tests="10" time="336.0" timestamp="">
+  
+    <testcase name="Menu Bar Movies" classname="imdb" time="48.28" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Menu Bar TV" classname="imdb" time="23.88" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Menu Bar Awards &amp; Events" classname="imdb" time="42.88" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Menu Bar Celebs" classname="imdb" time="12.83" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Menu Bar Videos" classname="imdb" time="25.27" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Menu Bar Community" classname="imdb" time="12.60" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="What&#39;s Streaming" classname="imdb" time="9.765" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Actor Search" classname="imdb" time="75.17" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Movie Search" classname="imdb" time="70.63" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Bottom Links" classname="imdb" time="14.69" assertions="1">
+
+    
+    <error message="Error while running &#34;window&#34; command: POST requests to /window must include a name parameter also." type="error"><![CDATA[
+    Error: Error while running &#34;window&#34; command: POST requests to /window must include a name parameter also.
+    at CommandInstance.command (C:\Users\CJWal\AppData\Roaming\npm\node_modules\nightwatch\lib\api\protocol\window.js:20:17)
+    at C:\Users\CJWal\AppData\Roaming\npm\node_modules\nightwatch\lib\api\_loaders\command.js:154:29
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .getLocationInView() command on &lt;Element [name=@copy]&gt;: from unknown error: web view not found,  (Session info: chrome=84.0.4147.125),  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18362 x86_64); no such window: target window already closed
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;no such window: target window already closed&#34;,&#34;error&#34;:[&#34;from unknown error: web view not found&#34;,&#34;  (Session info: chrome=84.0.4147.125)&#34;,&#34;  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18362 x86_64)&#34;]},&#34;errorStatus&#34;:23,&#34;error&#34;:&#34;no such window: target window already closed&#34;,&#34;httpStatusCode&#34;:200}
+       at runMicrotasks (&lt;anonymous&gt;)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .getLocationInView() command on &lt;Element [name=@copy]&gt;: from unknown error: web view not found,  (Session info: chrome=84.0.4147.125),  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18362 x86_64); no such window: target window already closed
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;no such window: target window already closed&#34;,&#34;error&#34;:[&#34;from unknown error: web view not found&#34;,&#34;  (Session info: chrome=84.0.4147.125)&#34;,&#34;  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18362 x86_64)&#34;]},&#34;errorStatus&#34;:23,&#34;error&#34;:&#34;no such window: target window already closed&#34;,&#34;httpStatusCode&#34;:200}
+       at runMicrotasks (&lt;anonymous&gt;)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@ig]&gt;: from unknown error: web view not found,  (Session info: chrome=84.0.4147.125),  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18362 x86_64); no such window: target window already closed
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;no such window: target window already closed&#34;,&#34;error&#34;:[&#34;from unknown error: web view not found&#34;,&#34;  (Session info: chrome=84.0.4147.125)&#34;,&#34;  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.18362 x86_64)&#34;]},&#34;errorStatus&#34;:23,&#34;error&#34;:&#34;no such window: target window already closed&#34;,&#34;httpStatusCode&#34;:200}
+       at runMicrotasks (&lt;anonymous&gt;)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  Error: Error while running &#34;window&#34; command: POST requests to /window must include a name parameter also.
+   
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
